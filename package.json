@@ -4,7 +4,8 @@
   "description": "Jest Course",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "ts-node src/app/Launcher.ts"
   },
   "repository": {
     "type": "git",
@@ -24,5 +25,10 @@
     "ts-jest": "^27.1.3",
     "ts-node": "^10.5.0",
     "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "@seald-io/nedb": "^3.0.0",
+    "feathers-nedb": "^6.0.0",
+    "nedb": "^1.8.0"
   }
 }
